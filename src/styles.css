@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background: #053c5e;
+}
+
+.orb {
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  background: #1f7a8c;
+  margin: auto;
+  margin-top: 200px;
+}
+
+button {
+  padding: 20px;
+}
+
+.orb_1 {
+  animation-name: orb_1;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes orb_1 {
+  from {
+    transform: scale(1);
+    background: #db222a;
+  }
+  to {
+    transform: scale(3);
+    background: #bfdbf7;
+  }
+}
